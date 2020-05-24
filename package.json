@@ -1,0 +1,22 @@
+{
+  "name": "InfigoBrowserSync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "sync": "browser-sync start --proxy \"https://localhost:8000\"",
+    "runwithsync": "concurrently \"npm start\" \"npm run sync\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.2.0",
+    "http-proxy": "^1.18.0",
+    "nodemon": "^2.0.3",
+    "roundround": "^0.2.0"
+  }
+}
