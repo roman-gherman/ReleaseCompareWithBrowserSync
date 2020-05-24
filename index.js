@@ -51,7 +51,7 @@ https.createServer(httpsOpts, function (req, res) {
     var destination = getDestinatonFromCookie(req);
     if(!destination)
     {
-        destination = nextDestinationRoundRobin();//"https://c2016.pp-islcatfish.com"
+        destination = nextDestinationRoundRobin();
         console.log(destination);
     }
 
