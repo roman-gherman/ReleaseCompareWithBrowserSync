@@ -15,7 +15,7 @@
   "dependencies": {
     "browser-sync": "^2.26.7",
     "concurrently": "^5.2.0",
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "nodemon": "^2.0.3",
     "roundround": "^0.2.0"
   }
